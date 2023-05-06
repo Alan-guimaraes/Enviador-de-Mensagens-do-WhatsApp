@@ -15,3 +15,6 @@ Como funciona:
 A aplicação utiliza tecnologias web, como HTML, CSS e JavaScript, para criar uma interface amigável e interativa. O usuário preenche os campos necessários nos formulários correspondentes às funcionalidades desejadas. Ao clicar no botão "Enviar mensagem", a aplicação captura os dados fornecidos e gera uma mensagem personalizada com base nesses dados. Em seguida, a aplicação abre uma janela do WhatsApp Web ou do aplicativo WhatsApp no dispositivo do usuário, pré-preenchendo a mensagem e o número do destinatário. O usuário pode revisar a mensagem e enviar manualmente pelo WhatsApp.
 
 Essa aplicação é útil para agilizar o envio de mensagens padronizadas pelo WhatsApp, especialmente em situações de acompanhamento e conclusão de chamados. Ela pode ser utilizada por equipes de suporte técnico, atendimento ao cliente ou qualquer contexto em que seja necessário enviar mensagens estruturadas pelo WhatsApp.
+
+
+Irei atualizar com novas versões, conforme a necessidade do time. 
