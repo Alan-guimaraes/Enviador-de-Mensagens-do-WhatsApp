@@ -1,8 +1,8 @@
-# Enviador de Mensagens do WhatsApp
+# Mensagens Automáticas no WhatsApp
  Uma Aplicação Web para Envio de Mensagens pelo WhatsApp.
 
 
-A aplicação "Enviador de Mensagens do WhatsApp" é uma ferramenta web que permite enviar mensagens pelo WhatsApp de forma automatizada. Ela oferece duas principais funcionalidades: envio de mensagem de validação de chamado e envio de mensagem de conclusão de chamado.
+A aplicação "Mensagens Automáticas no WhatsApp" é uma ferramenta web que permite enviar mensagens pelo WhatsApp de forma automatizada. Ela oferece duas principais funcionalidades: envio de mensagem de validação de chamado e envio de mensagem de conclusão de chamado.
 
 Funcionalidades:
 
