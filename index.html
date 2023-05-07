@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enviar mensagem no WhatsApp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css">
+        <link rel="stylesheet" type:"text/css" href="style/style.css">
+        <style>
+          .box1,
+          .box2 {
+            padding: 20px;
+            background-color: #f2f2f2;
+            text-align: center;
+          }
+        </style>
+      </head>
+  <body>
+    <h1 class="h1-container">Backlog acompanhamento de chamados - Whatsapp</h1>
+
+    <div id="carousel">
+      <div class="box1">
+        <h2>Enviar mensagem de validação de chamado</h2>
+        <form>
+            <label for="numero-whatsapp2">Número do WhatsApp:</label>
+            <input type="text" id="numero-whatsapp2" name="numero-whatsapp2" placeholder="Lembre-se coloque o DDD mais o 9.">
+            <br><br>
+            <label for="nome2">Seu nome:</label>
+            <input type="text" id="nome2" name="nome2"  placeholder="Nome do responsável de Backlog">
+            <br><br>
+            <label for="chamado2">Código do chamado:</label>
+            <input type="text" id="chamado2" name="chamado2"  placeholder="Protocolo que consta no chamado">
+            <br><br>
+            <label for="assunto2">Assunto:</label>
+            <input type="text" id="assunto2" name="assunto2" placeholder="Descreva o assunto do caso" >
+            <br><br>
+            <label for="conclusao2">Conclusão do parceiro:</label>
+            <input type="text" id="conclusao2" name="conclusao2" placeholder="Caso necessario, explique para o cliente">
+            <br><br>
+            <button onclick="enviarMensagemValidacao()">Enviar mensagem</button>
+        </form>
+        
+      </div>
+
+      <div class="box2">
+        <h2>Enviar mensagem de conclusão de chamado</h2>
+        <form>
+            <label for="numero-whatsapp">Número do WhatsApp:</label>
+            <input type="text" id="numero-whatsapp" name="numero-whatsapp" placeholder="Lembre-se coloque o DDD mais o 9.">
+            <br><br>
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome"placeholder="Nome do responsável de Backlog">
+            <br><br>
+            <label for="chamado">Código do chamado:</label>
+            <input type="text" id="chamado" name="chamado"placeholder="Protocolo que consta no chamado">
+            <br><br>
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" placeholder="Descreva o assunto do caso">
+            <br><br>
+            <label for="conclusao">Conclusão do parceiro:</label>
+            <input type="text" id="conclusao" name="conclusao" placeholder="Caso necessario, explique para o cliente">
+            <br><br>
+            <button onclick="enviarMensagemAcompanhamento()">Enviar mensagem</button>
+
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="javaScript/script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enviar mensagem no WhatsApp</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Backlog acompanhamento de chamados - WhatsApp</h1>
+
+    <section class="container">
+      <div class="form-container">
+        <h2>Enviar mensagem de validação de chamado</h2>
+        <form>
+          <label for="numero-whatsapp2">Número do WhatsApp:</label>
+          <input type="text" id="numero-whatsapp2" name="numero-whatsapp2">
+          <br><br>
+          <label for="nome2">Seu nome:</label>
+          <input type="text" id="nome2" name="nome2">
+          <br><br>
+          <label for="chamado2">Código do chamado:</label>
+          <input type="text" id="chamado2" name="chamado2">
+          <br><br>
+          <label for="assunto2">Assunto:</label>
+          <input type="text" id="assunto2" name="assunto2">
+          <br><br>
+          <label for="conclusao2">Conclusão do parceiro:</label>
+          <input type="text" id="conclusao2" name="conclusao2">
+          <br><br>
+          <button onclick="enviarMensagemValidacao()">Enviar mensagem</button>
+        </form>
+      </div>
+
+      <div class="message-container">
+        <h2></h2>
+        <p id="mensagem-validacao"></p>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="container">
+      <div class="form-container">
+        <h2>Enviar mensagem de conclusão de chamado</h2>
+        <form>
+          <label for="numero-whatsapp">Número do WhatsApp:</label>
+          <input type="text" id="numero-whatsapp" name="numero-whatsapp">
+          <br><br>
+          <label for="nome">Seu nome:</label>
+          <input type="text" id="nome" name="nome">
+          <br><br>
+          <label for="chamado">Código do chamado:</label>
+          <input type="text" id="chamado" name="chamado">
+          <br><br>
+          <label for="assunto">Assunto:</label>
+          <input type="text" id="assunto" name="assunto">
+          <br><br>
+          <label for="conclusao">Conclusão do parceiro:</label>
+          <input type="text" id="conclusao" name="conclusao">
+          <br><br>
+          <button onclick="enviarMensagemAcompanhamento()">Enviar mensagem</button>
+        </form>
+      </div>
+
+      <div class="message-container">
+        <h2></h2>
+        <p id="mensagem-acompanhamento"></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>-->
+

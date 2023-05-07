@@ -1,0 +1,168 @@
+/*
+Cores site Boticario
+
+#A05095 - Rx
+#DCB1D1 - RX CLARO
+#5A6D50 - verde
+
+#70967F - verde icone
+
+#627757 - verde barra
+
+#EFE5C4 - cor de pele no site Boti
+
+#00A470 - Botão Boti*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+:root {
+    --color-green-50: #70967F;
+    --color-green-100: #5A6D50;
+    --color-green-200: #627757;
+
+    --color-purple-50: #DCB1D1;
+    --color-purple-100: #A05095;
+
+    --color-skin-10: #EFE5C4;
+
+    --color-button-1: #00A470;
+
+    --color-gradient: linear-gradient(90deg, var(--color-green-50), var(--color-green-200));
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 input[type="text"],
+.box2 input[type="text"] {
+    width: 70%;
+    margin: auto;
+    display: block;
+    border: none;
+    resize: vertical;
+}
+
+.box1,
+.box2 {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F5F5F5;
+    text-align: center;
+    border-radius: 10px;
+    color: #3a4443;
+}
+
+.container {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    color: #3a4443;
+}
+
+.h1-container {
+    background-image: var(--color-gradient);
+    padding: 30px 40px;
+    border-radius: 0px;
+}
+
+label {
+    color: #3a4443;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--color-button-1);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.message-container h2 {
+    margin-bottom: 10px;
+}
+
+.message-container p {
+    white-space: pre-wrap;
+}
+  
+
+
+
+
+/*body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
